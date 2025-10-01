@@ -1,0 +1,613 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Velora - Home</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <!-- Header -->
+  <header>
+    <div class="logo">Velora</div>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="shop.html">Shop</a></li>
+        <li><a href="blog.html">Blog</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="support.html">Support</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <h1>Welcome to Velora</h1>
+    <p>Your one-stop online store for amazing products!</p>
+    <a href="shop.html" class="btn">Shop Now</a>
+  </section>
+
+  <!-- Features -->
+  <section class="features">
+    <div class="feature-card">
+      <h2>Fast Payments</h2>
+      <p>Secure and instant payment options.</p>
+    </div>
+    <div class="feature-card">
+      <h2>24/7 Support</h2>
+      <p>We are here to help you anytime.</p>
+    </div>
+    <div class="feature-card">
+      <h2>Customer Feedback</h2>
+      <p>Your opinions matter, share them with us!</p>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 Velora. All Rights Reserved.</p>
+    <div class="socials">
+      <a href="#">Instagram</a>
+      <a href="#">Facebook</a>
+      <a href="#">Twitter</a>
+    </div>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Velora - About</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <!-- Header -->
+  <header>
+    <div class="logo">Velora</div>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html" class="active">About</a></li>
+        <li><a href="shop.html">Shop</a></li>
+        <li><a href="blog.html">Blog</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="support.html">Support</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- About Section -->
+  <section class="about">
+    <div class="container">
+      <h1>About Velora</h1>
+      <p>Velora is your ultimate online store for high-quality products at affordable prices. Our mission is to bring you the best shopping experience with fast delivery, secure payments, and 24/7 customer support.</p>
+      <p>We are passionate about e-commerce and customer satisfaction. Every product is carefully selected to ensure quality and style.</p>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 Velora. All Rights Reserved.</p>
+    <div class="socials">
+      <a href="#">Instagram</a>
+      <a href="#">Facebook</a>
+      <a href="#">Twitter</a>
+    </div>
+  </footer>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Velora - Contact</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <!-- Header -->
+  <header>
+    <div class="logo">Velora</div>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="shop.html">Shop</a></li>
+        <li><a href="blog.html">Blog</a></li>
+        <li><a href="contact.html" class="active">Contact</a></li>
+        <li><a href="support.html">Support</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Contact Form -->
+  <section class="contact">
+    <div class="container">
+      <h1>Contact Us</h1>
+      <form id="contactForm">
+        <input type="text" name="name" placeholder="Your Name" required>
+        <input type="email" name="email" placeholder="Your Email" required>
+        <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+        <button type="submit">Send Message</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 Velora. All Rights Reserved.</p>
+    <div class="socials">
+      <a href="#">Instagram</a>
+      <a href="#">Facebook</a>
+      <a href="#">Twitter</a>
+    </div>
+  </footer>
+
+  <script>
+    // Contact form submission alert
+    document.getElementById("contactForm").addEventListener("submit", function(e){
+      e.preventDefault();
+      alert("Thank you! Your message has been sent.");
+      this.reset();
+    });
+  </script>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Velora - Contact</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <!-- Header -->
+  <header>
+    <div class="logo">Velora</div>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="shop.html">Shop</a></li>
+        <li><a href="blog.html">Blog</a></li>
+        <li><a href="contact.html" class="active">Contact</a></li>
+        <li><a href="support.html">Support</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Contact Form -->
+  <section class="contact">
+    <div class="container">
+      <h1>Contact Us</h1>
+      <form id="contactForm">
+        <input type="text" name="name" placeholder="Your Name" required>
+        <input type="email" name="email" placeholder="Your Email" required>
+        <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+        <button type="submit">Send Message</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 Velora. All Rights Reserved.</p>
+    <div class="socials">
+      <a href="#">Instagram</a>
+      <a href="#">Facebook</a>
+      <a href="#">Twitter</a>
+    </div>
+  </footer>
+
+  <script>
+    // Contact form submission alert
+    document.getElementById("contactForm").addEventListener("submit", function(e){
+      e.preventDefault();
+      alert("Thank you! Your message has been sent.");
+      this.reset();
+    });
+  </script>
+</body>
+</html>
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Velora - About</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <!-- Header -->
+  <header>
+    <div class="logo">Velora</div>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html" class="active">About</a></li>
+        <li><a href="shop.html">Shop</a></li>
+        <li><a href="blog.html">Blog</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="support.html">Support</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- About Section -->
+  <section class="about">
+    <div class="container">
+      <h1>About Velora</h1>
+      <p>Velora is your ultimate online store for high-quality products at affordable prices. Our mission is to bring you the best shopping experience with fast delivery, secure payments, and 24/7 customer support.</p>
+      <p>We are passionate about e-commerce and customer satisfaction. Every product is carefully selected to ensure quality and style.</p>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 Velora. All Rights Reserved.</p>
+    <div class="socials">
+      <a href="#">Instagram</a>
+      <a href="#">Facebook</a>
+      <a href="#">Twitter</a>
+    </div>
+  </footer>
+</body>
+</html>
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Velora - Contact</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <!-- Header -->
+  <header>
+    <div class="logo">Velora</div>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="shop.html">Shop</a></li>
+        <li><a href="blog.html">Blog</a></li>
+        <li><a href="contact.html" class="active">Contact</a></li>
+        <li><a href="support.html">Support</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Contact Form -->
+  <section class="contact">
+    <div class="container">
+      <h1>Contact Us</h1>
+      <form id="contactForm">
+        <input type="text" name="name" placeholder="Your Name" required>
+        <input type="email" name="email" placeholder="Your Email" required>
+        <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+        <button type="submit">Send Message</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 Velora. All Rights Reserved.</p>
+    <div class="socials">
+      <a href="#">Instagram</a>
+      <a href="#">Facebook</a>
+      <a href="#">Twitter</a>
+    </div>
+  </footer>
+
+  <script>
+    // Contact form submission alert
+    document.getElementById("contactForm").addEventListener("submit", function(e){
+      e.preventDefault();
+      alert("Thank you! Your message has been sent.");
+      this.reset();
+    });
+  </script>
+</body>
+</html>
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Velora - Blog</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header>
+    <div class="logo">Velora</div>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="shop.html">Shop</a></li>
+        <li><a href="blog.html" class="active">Blog</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="support.html">Support</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="blog">
+    <div class="container">
+      <h1>Velora Blog</h1>
+      <article class="blog-post">
+        <h2>Top 5 Products to Buy in 2025</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor...</p>
+        <a href="#">Read More</a>
+      </article>
+      <article class="blog-post">
+        <h2>How to Get the Best Deals Online</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor...</p>
+        <a href="#">Read More</a>
+      </article>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Velora. All Rights Reserved.</p>
+    <div class="socials">
+      <a href="#">Instagram</a>
+      <a href="#">Facebook</a>
+      <a href="#">Twitter</a>
+    </div>
+  </footer>
+</body>
+</html>
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Velora - Shop</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header>
+    <div class="logo">Velora</div>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="shop.html" class="active">Shop</a></li>
+        <li><a href="blog.html">Blog</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="support.html">Support</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="shop">
+    <div class="container">
+      <h1>Shop Our Products</h1>
+      <div class="product-grid">
+        <!-- Product 1 -->
+        <div class="product-card">
+          <img src="images/product1.jpg" alt="Product 1">
+          <h3>Product 1</h3>
+          <p>$25.00</p>
+          <a href="payments.html" class="btn">Buy Now</a>
+        </div>
+        <!-- Product 2 -->
+        <div class="product-card">
+          <img src="images/product2.jpg" alt="Product 2">
+          <h3>Product 2</h3>
+          <p>$30.00</p>
+          <a href="payments.html" class="btn">Buy Now</a>
+        </div>
+        <!-- Product 3 -->
+        <div class="product-card">
+          <img src="images/product3.jpg" alt="Product 3">
+          <h3>Product 3</h3>
+          <p>$45.00</p>
+          <a href="payments.html" class="btn">Buy Now</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Velora. All Rights Reserved.</p>
+    <div class="socials">
+      <a href="#">Instagram</a>
+      <a href="#">Facebook</a>
+      <a href="#">Twitter</a>
+    </div>
+  </footer>
+</body>
+</html>
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Velora - Payments</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header>
+    <div class="logo">Velora</div>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="shop.html">Shop</a></li>
+        <li><a href="blog.html">Blog</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="support.html">Support</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="payments">
+    <div class="container">
+      <h1>Payment</h1>
+      <form id="paymentForm">
+        <input type="text" placeholder="Full Name" required>
+        <input type="email" placeholder="Email" required>
+        <input type="text" placeholder="Card Number" required>
+        <input type="text" placeholder="Expiry Date (MM/YY)" required>
+        <input type="text" placeholder="CVV" required>
+        <button type="submit" class="btn">Pay Now</button>
+      </form>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Velora. All Rights Reserved.</p>
+    <div class="socials">
+      <a href="#">Instagram</a>
+      <a href="#">Facebook</a>
+      <a href="#">Twitter</a>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById("paymentForm").addEventListener("submit", function(e){
+      e.preventDefault();
+      alert("Payment Successful! Thank you for shopping with Velora.");
+      this.reset();
+    });
+  </script>
+</body>
+</html>
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Velora - Feedback</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header>
+    <div class="logo">Velora</div>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="shop.html">Shop</a></li>
+        <li><a href="blog.html">Blog</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="support.html">Support</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="feedback">
+    <div class="container">
+      <h1>Customer Feedback</h1>
+      <form id="feedbackForm">
+        <input type="text" placeholder="Your Name" required>
+        <input type="email" placeholder="Your Email" required>
+        <textarea placeholder="Your Feedback" rows="5" required></textarea>
+        <button type="submit" class="btn">Submit Feedback</button>
+      </form>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Velora. All Rights Reserved.</p>
+    <div class="socials">
+      <a href="#">Instagram</a>
+      <a href="#">Facebook</a>
+      <a href="#">Twitter</a>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById("feedbackForm").addEventListener("submit", function(e){
+      e.preventDefault();
+      alert("Thank you for your feedback!");
+      this.reset();
+    });
+  </script>
+</body>
+</html>
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Velora - Support</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header>
+    <div class="logo">Velora</div>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="shop.html">Shop</a></li>
+        <li><a href="blog.html">Blog</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="support.html" class="active">Support</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="support">
+    <div class="container">
+      <h1>Support</h1>
+      <p>If you need help, contact us through the form below:</p>
+      <form id="supportForm">
+        <input type="text" placeholder="Your Name" required>
+        <input type="email" placeholder="Your Email" required>
+        <textarea placeholder="Your Issue" rows="5" required></textarea>
+        <button type="submit" class="btn">Submit</button>
+      </form>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Velora. All Rights Reserved.</p>
+    <div class="socials">
+      <a href="#">Instagram</a>
+      <a href="#">Facebook</a>
+      <a href="#">Twitter</a>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById("supportForm").addEventListener("submit", function(e){
+      e.preventDefault();
+      alert("Support request received. We will contact you soon!");
+      this.reset();
+    });
+  </script>
+</body>
+</html>
+
