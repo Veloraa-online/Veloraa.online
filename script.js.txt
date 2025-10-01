@@ -1,0 +1,50 @@
+document.addEventListener("DOMContentLoaded", () => {
+// Hero Shop button alert
+const shopBtn = document.querySelector(".hero .btn");
+if(shopBtn){
+shopBtn.addEventListener("click", () => { alert("Redirecting to Shop Page!"); });
+}
+
+
+// Shopping cart
+const cart = [];
+const cartList = document.getElementById("cart");
+const addBtns = document.querySelectorAll(".add-to-cart");
+
+
+addBtns.forEach(btn => {
+btn.addEventListener("click", (e) => {
+const card = e.target.closest(".product-card");
+const name = card.querySelector("h3").textContent;
+cart.push(name);
+renderCart();
+});
+});
+
+
+function renderCart(){
+if(cartList){
+cartList.innerHTML = "";
+cart.forEach(item => {
+const li = document.createElement("li");
+li.textContent = item;
+cartList.appendChild(li);
+});
+}
+}
+
+
+// Product Search
+const searchInput = document.getElementById("search");
+const productGrid = document.getElementById("productGrid");
+if(searchInput && productGrid){
+searchInput.addEventListener("input", () => {
+const filter = searchInput.value.toLowerCase();
+const products = productGrid.querySelectorAll(".product-card");
+products.forEach(p => {
+const name = p.dataset.name.toLowerCase();
+p.style.display = name.includes(filter) ? "block" : "none";
+});
+});
+}
+});
