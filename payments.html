@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<title>Velora - Payments</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<header>
+  <div class="logo">Velora</div>
+  <nav>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="shop.html">Shop</a></li>
+      <li><a href="blog.html">Blog</a></li>
+      <li><a href="contact.html">Contact</a></li>
+      <li><a href="support.html">Support</a></li>
+    </ul>
+  </nav>
+</header>
+
+<main class="container">
+  <h1>Payment</h1>
+  <form id="paymentForm" class="form">
+    <input type="text" id="fullname" placeholder="Full Name" required>
+    <input type="email" id="email" placeholder="Email" required>
+    <input type="text" id="card" placeholder="Card Number" required>
+    <input type="text" id="expiry" placeholder="Expiry (MM/YY)" required>
+    <input type="text" id="cvv" placeholder="CVV" required>
+    <p id="amount-display">Amount: $0.00</p>
+    <button type="submit" class="btn">Pay Now</button>
+  </form>
+</main>
+
+<footer>
+  <p>&copy; 2025 Velora. All Rights Reserved.</p>
+</footer>
+<script src="js/script.js"></script>
+</body>
+</html>
